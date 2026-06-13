@@ -50,7 +50,7 @@ logging:
     org.springframework.data.redis: WARN
 sso:
   jwt:
-    secret: 8s9D7f8G6d5S4a3Q2w1E9r8T7y6U5i4O3p2A1s0D9f8G7h6J5k4L3j2B1v0C9x8S7a6D5f4G3h2J1
+    secret: ${SSO_JWT_SECRET}
 management:
   endpoints:
     web:
