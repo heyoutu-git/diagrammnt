@@ -1,0 +1,39 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Build
+target/
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment
+*.env
+diagram.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.bak
+*.swp
+
+# Java
+*.class
+*.jar
+*.war
+
+# Python (模型相关)
+__pycache__/
+*.pyc
